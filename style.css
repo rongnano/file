@@ -1,9 +1,9 @@
 @font-face {
-  font-family:'Tangerine';font-style:normal;font-weight:400;
+  font-family: 'Tangerine';font-style: normal;font-weight: 400;
   src:url('https://rongnano.github.io/file/stylesheets/f.eot');
   src:url('https://rongnano.github.io/file/stylesheets/f.eot?#iefix') format('embedded-opentype'),
   url('https://rongnano.github.io/file/stylesheets/f.woff') format('woff'),
-  url(https://rongnano.github.io/file/stylesheets/f.woff2) format('woff2'),
+  url('https://rongnano.github.io/file/stylesheets/f.woff2') format('woff2'),
   url('https://rongnano.github.io/file/stylesheets/f.ttf') format('truetype'),
   url('https://rongnano.github.io/file/stylesheets/f.svg#Tangerine') format('svg');
   src: local('Tangerine'), url(https://rongnano.github.io/file/stylesheets/f.woff2) format('woff2');
