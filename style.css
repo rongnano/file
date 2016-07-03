@@ -219,7 +219,7 @@ animation-fill-mode: forwards;
 animation-direction: normal, alternate; 
 }
 ul#uaz{
-	margin:0 0 0 -11px;
+	margin:0 0 0 -10px;
 	display: none;
 	background: rgba(255, 255, 255, 0.82);
 	position:absolute;
