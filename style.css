@@ -149,8 +149,6 @@ background-size: 25px 28px;
 #topbar div.mobile a.mop{top:0;right:4px;position:fixed;opacity:0.27;filter:alpha(opacity=27);z-index:5;}
 
 
-
-
 ul#group{top:42px;margin-top:199px;opacity:0;visibility:hidden;margin-left:-46px;transition:visibility 0s,opacity .1s ease-out,margin-top .2s ease-out;
 position:fixed;text-align:left;
 padding: 2px 0 1px 0;
@@ -221,8 +219,17 @@ animation-fill-mode: forwards;
 -webkit-animation-direction: normal, alternate;
 animation-direction: normal, alternate; 
 }
-
-
+#ulmen p{
+	top: -2px;
+	margin-right: 3px;
+    color: rgba(255,0,255,0.9);
+    font-size: 14px;
+    position: relative;    
+}
+#az.k{
+	color: rgba(255,0,255,0.9);
+	text-transform: capitalize;
+}
 
 
 
@@ -376,7 +383,7 @@ background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(transparent), to
 #show div#content,#show div#adbar{margin-top:12px;box-shadow:0px 2px 5px rgba(77,77,77,0.39);}
 #show #adbar{position:fixed;width:120px;height:600px;right:1px;top:72px;background:rgba(255,255,255,0.77);border-radius:1px}
 #show #content{width:auto;height:auto;min-height:603px;background:rgba(255,255,255,0.77) url(https://2.bp.blogspot.com/-w0xh4LU5T8Q/VzdZzXEiDDI/AAAAAAAAJ3A/6Jni6q2X7zgQEuzBGxrR0d2bCxWoTsH8wCLcB/s0/loading.gif) center 36% no-repeat;border-radius:1px;position:relative;}
-#show #ititle{margin:0;padding:7px 0;font-size:20px;line-height:36px;text-align:center;text-shadow:1px 1px 0 #F2F2F2,1px 2px 0 #b1b1b2;color:#282828;text-decoration: none;font-family:'Norican','Helvetica Neue',Arial,sans-serif;font-weight:bold;text-transform:uuppercase;letter-spacing:0;word-spacing:-1px;}
+#show #ititle{margin:0;padding:7px 0;font-size:20px;line-height:36px;text-align:center;text-shadow:1px 1px 0 #F2F2F2,1px 2px 0 #b1b1b2;color:#282828;text-decoration: none;font-family:'Norican','Helvetica Neue',Arial,sans-serif;font-weight:bold;letter-spacing:0;word-spacing:-1px;}
 #show #ipost{width:100%;text-align:center;
 background:rgba(255,255,255,0.39);
 font-family:Arial,Tahoma,Helvetica,'times new roman', serif !important;
