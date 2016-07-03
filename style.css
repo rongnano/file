@@ -156,7 +156,7 @@ background: rgba(255,255,255,0.79);
 box-shadow: 0 2px 4px rgba(0,0,0,0.2);
 -webkit-box-shadow: 0 9px 12px rgba(0,0,0,0.12);
 cursor: default;z-index:3;}
-ul#group li{margin:0;text-align:left;display:block;
+ul#group li,ul#ulmen ul li{margin:0;text-align:left;display:block;
 transition:background-color .5s ease-out;
 background: rgba(255,255,255,.79);
 background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 0%, rgba(245,245,245,1) 0%, rgba(255,255,255,0.03) 100%);
@@ -169,7 +169,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff',endCo
 
 }
 ul#group li:hover{background-color:rgba(230,230,230,0.92);}
-ul#group li a{background:none;box-shadow:none;
+ul#group li a,ul#ulmen ul li a{background:none;box-shadow:none;
 line-height: 22px;color:#000;
 font: 14px/22px 'Helvetica Neue',Helvetica,arial,sans-serif;
 padding: 0 10px 0 8px;
@@ -191,7 +191,7 @@ ul#group li:hover ul#ulhome,ul#ulhome li:hover ul#ulhome1,ul#ulhome1 li:hover ul
 ul#ulmen{width:auto;margin:0 auto;padding:0;border:0;display:table}
 ul#ulmen li{padding:0 15px;cursor:pointer}
 ul#ulmen li:hover{}
-ul#ulmen li a{line-height:28px;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:15px;color:#373737;text-decoration:none;
+ul#ulmen li a{padding:0 0 3px 0;line-height:28px;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:15px;color:#373737;text-decoration:none;
 text-shadow: 0 -2px 9px #EBEBEB, 0px 2px 9px #EBEBEB;
 font-weight: bold;
 -webkit-transform: translateZ(0);
@@ -199,7 +199,6 @@ transform: translateZ(0);
 -webkit-backface-visibility: hidden;
 backface-visibility: hidden;
 -moz-osx-font-smoothing: grayscale;
-
 }
 ul#ulmen li a:hover{
 text-shadow: 0 0 0.1em #fff, 0 0 0.2em #fff, 0 0 0.3em #fff, 0 0 0.4em #f7f,0 0 0.6em #f0f, 0 0 0.8em #f0f, 0 0 1.0em #f0f, 0 0 1.2em #f0f;
@@ -218,6 +217,37 @@ animation-iteration-count: 1, infinite;
 animation-fill-mode: forwards;
 -webkit-animation-direction: normal, alternate;
 animation-direction: normal, alternate; 
+}
+ul#uaz{
+	margin:0 0 0 -11px;
+	display: none;
+	background: rgba(255, 255, 255, 0.82);
+	position:absolute;
+	z-index:1;
+}
+ul#uaz li ul{
+	left: 100%;
+	margin-top: -23px;	
+	width:auto;
+	white-space: nowrap;
+	background: rgba(255, 255, 255, 0.82);
+	position: absolute;
+	display:none;
+}
+ul#ulmen li:hover ul#uaz,ul#uaz li:hover ul{
+	display:block;
+}
+ul#ulmen li ul li{
+	padding:0;
+	transition:background-color .36s ease-out;
+	background-color: rgb(62, 255, 111);
+}
+ul#ulmen li ul li:hover{
+	background-color: rgba(255, 0, 239, 0.9);
+}
+ul#ulmen li ul li a{
+	font-size: 14px;
+    line-height: 23px;
 }
 #ulmen p{
 	top: -2px;
