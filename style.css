@@ -339,6 +339,43 @@ background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(transparent), to
 .wap .footer a.t{color:#124D79;word-spacing:0px;word-wrap:break-word;display:inline}
 .wap .footer a.t:hover{color:#FF3DFF}.wap .footer a:hover{color:blue;}
 
+
+.wab{
+}
+.wab a{
+	width:100%;
+	padding:6px 0;
+	font:700 17px/17px "Times New Roman",Georgia,Times;
+	text-decoration:none;
+	display:block;
+	clear:both;
+}
+.wab a.l{
+	color: #ff00ff;
+}
+
+.wab a.r{
+	color: #0000ee;
+	text-align:right;
+}
+
+.wab img{
+	width:calc(100%/2 - 1px);
+	height:212px;
+	display:block;
+	z-index:3;	
+}
+.wab img.r{
+	float: right;
+	box-shadow: 2px 4px 0 rgba(0,0,236,0.25);
+}
+.wab img.l{
+	float:left;
+	box-shadow: -2px -4px 0 rgba(255, 0, 255, 0.25);
+}
+
+
+
 #ibars{
 	text-align: center;
     width: 100%;
@@ -728,6 +765,7 @@ transform: translateY(-2px);
 }
 }
 @media only screen and (max-width:499px){/*************************************************************************************/
+#show #conbar{margin:0}#show .showc{padding:12px 1px}
 .wap{max-width:100%}
 ul.ulbar,#sidebar,#adbar,#sea,#sky{display:none}
 .desktop{display:none}.mobile{display:block}
