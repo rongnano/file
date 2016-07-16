@@ -218,14 +218,15 @@ animation-fill-mode: forwards;
 -webkit-animation-direction: normal, alternate;
 animation-direction: normal, alternate; 
 }
-ul#uaz{
+
+ul.ulaz{
 	margin:0 0 0 -10px;
 	display: none;
 	background: rgba(255, 255, 255, 0.82);
 	position:absolute;
 	z-index:1;
 }
-ul#uaz li ul{
+ul.ulaz li ul{
 	left: 100%;
 	margin-top: -23px;	
 	width:auto;
@@ -234,7 +235,7 @@ ul#uaz li ul{
 	position: absolute;
 	display:none;
 }
-ul#ulmen li:hover ul#uaz,ul#uaz li:hover ul{
+ul#ulmen li:hover ul.ulaz,ul.ulaz li:hover ul{
 	display:block;
 }
 ul#ulmen li ul li{
@@ -256,7 +257,7 @@ ul#ulmen li ul li a{
     font-size: 14px;
     position: relative;    
 }
-#az.k{
+ul#ulmen li a.k{
 	color: rgba(255,0,255,0.9);
 	text-transform: capitalize;
 }
@@ -386,7 +387,7 @@ background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(transparent), to
     font-family: Arial,Tahoma,Helvetica,'times new roman', serif !important;
 }
 #ibars table{	
-    width: 320px;
+    width: 316px;
     margin: 18px 0 9px 0;
     background: rgba(239, 212, 255, 0.36);
     border-radius: 5px;
@@ -410,9 +411,10 @@ background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(transparent), to
 }
 
 #ibars a.t{
-    margin: 3px 0 2px 0;
+    margin:0;
     color: #ff0000;
     font-size: 17px;
+    line-height:22px;
 }
 #ibars a:hover{
 	color:#FF3DFF;
