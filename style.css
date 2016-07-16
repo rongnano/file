@@ -344,7 +344,7 @@ background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(transparent), to
 }
 .wab a{
 	width:100%;
-	padding:5px 0;
+	padding:7px 0;
 	font:800 18px/20px "Times New Roman",Georgia,Times;
 	text-decoration:none;
 	display:block;
@@ -853,16 +853,16 @@ font-size:16px;font-weight:bold;text-decoration:none;text-transform:capitalize;}
 #itail div.gose input{width:52px}
 }
 @media only screen and (max-width:415px){
-.wab img{height:272px}
+.wab img{height:267px}
 }
 @media only screen and (max-width:375px){
-.wab img{height:252px}
+.wab img{height:247px}
 }
 @media only screen and (max-width:360px){
-.wab img{height:232px}
+.wab img{height:239px}
 }
 @media only screen and (max-width:320px){
-.wab img{height:212px}
+.wab img{height:217px}
 }
 
 @media only screen and (min-width:500px){}
