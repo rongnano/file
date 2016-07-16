@@ -241,10 +241,10 @@ ul#ulmen li:hover ul.ulaz,ul.ulaz li:hover ul{
 ul#ulmen li ul li{
 	padding:0;
 	transition:background-color .36s ease-out;
-	background-color: rgb(62, 255, 111);
+	background-color: rgba(0, 255, 65, 0.57);
 }
 ul#ulmen li ul li:hover{
-	background-color: rgba(255, 0, 239, 0.9);
+	background-color: rgba(255, 0, 239, 0.57);
 }
 ul#ulmen li ul li a{
 	font-size: 14px;
@@ -769,7 +769,7 @@ transform: translateY(-2px);
 }
 }
 @media only screen and (max-width:499px){/*************************************************************************************/
-#show #conbar{margin:0}#show .showc{padding:12px 1px}
+#show #conbar{margin:0}#show .showc{padding:7px 1px}
 .wap{max-width:100%}.wab img{height:299px}
 ul.ulbar,#sidebar,#adbar,#sea,#sky{display:none}
 .desktop{display:none}.mobile{display:block}
