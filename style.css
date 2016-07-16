@@ -344,34 +344,36 @@ background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(transparent), to
 }
 .wab a{
 	width:100%;
-	padding:6px 0;
-	font:700 17px/17px "Times New Roman",Georgia,Times;
+	padding:5px 0;
+	font:800 18px/20px "Times New Roman",Georgia,Times;
 	text-decoration:none;
 	display:block;
+	background-color:rgba(239,239,239,0.27);
 	clear:both;
 }
 .wab a.l{
 	color: #ff00ff;
+	text-shadow: -1px -1px 0 rgba(0,0,0,0.12);
 }
 
 .wab a.r{
 	color: #0000ee;
 	text-align:right;
+	text-shadow: 1px 1px 0 rgba(0,0,0,0.12);
 }
 
 .wab img{
 	width:calc(100%/2 - 1px);
-	height:212px;
 	display:block;
 	z-index:3;	
 }
 .wab img.r{
 	float: right;
-	box-shadow: 2px 4px 0 rgba(0,0,236,0.25);
+	box-shadow: 2px 3px 0 rgba(0,0,236,0.25);
 }
 .wab img.l{
 	float:left;
-	box-shadow: -2px -4px 0 rgba(255, 0, 255, 0.25);
+	box-shadow: -2px -3px 0 rgba(255, 0, 255, 0.25);
 }
 
 
@@ -766,7 +768,7 @@ transform: translateY(-2px);
 }
 @media only screen and (max-width:499px){/*************************************************************************************/
 #show #conbar{margin:0}#show .showc{padding:12px 1px}
-.wap{max-width:100%}
+.wap{max-width:100%}.wab img{height:299px}
 ul.ulbar,#sidebar,#adbar,#sea,#sky{display:none}
 .desktop{display:none}.mobile{display:block}
 #hibar #solo{width:79%}#search input{margin-left:-5px}
@@ -850,6 +852,19 @@ font-size:16px;font-weight:bold;text-decoration:none;text-transform:capitalize;}
 #itail div.gose{margin:0 9px;}
 #itail div.gose input{width:52px}
 }
+@media only screen and (max-width:415px){
+.wab img{height:272px}
+}
+@media only screen and (max-width:375px){
+.wab img{height:252px}
+}
+@media only screen and (max-width:360px){
+.wab img{height:232px}
+}
+@media only screen and (max-width:320px){
+.wab img{height:212px}
+}
+
 @media only screen and (min-width:500px){}
 
 #menu{background:rgba(255,255,255,0.79);display:none}
