@@ -5,5 +5,5 @@ var b=localStorage.getItem("a.start"),c;null!=b?(c=(new Date).getTime(),b=Math.f
 "style":"script";null!=b&&null!=d?(l=JSON.parse(b),l.version==d?(this.e(l.content,c,g),f&&f()):(localStorage.removeItem(b),this.c(e,a,d,c,f,g))):this.c(e,a,d,c,f,g)}}};
 
 alo.$('https://script.google.com/macros/s/AKfycbxBh5ptSSej3stcLyB1k_oIuVXuKvGLzsdc7LFL2I4xe4APdaA/exec','a.google','1');
-alo.$('https://rongnano.github.io/file/js.js','a.js','3');
-alo.$('https://rongnano.github.io/file/style.css','a.css','3');
+alo.$('https://rongnano.github.io/file/js.js','a.js','5');
+alo.$('https://rongnano.github.io/file/style.css','a.css','5');
