@@ -290,7 +290,7 @@ background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(transparent), to
 .wap .header:hover span{top:0px;opacity:1;visibility:visible}
 
 .wap .header .rate{width:calc(100% - 14px);height:calc(100% - 31px);position:absolute;font:11px/11px Tahoma;}
-.wap .header .rate p.c{
+.wap .header .rate p.c,.wab .rate p.c{
 	background:rgba(255,255,255,0.77);
 	position:absolute;
     bottom:0;
@@ -301,13 +301,13 @@ background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(transparent), to
     -webkit-border-top-right-radius:2px;
     border-top-right-radius:2px;
 }
-.wap .header .rate p.s{
+.wap .header .rate p.s,.wab .rate p.s{
 	width:34px;height:50px;
 	background:url(https://1.bp.blogspot.com/-Wt-Gb6-Br5I/V3OwLRPI47I/AAAAAAAAKeE/GjVYkWUyZZEKN6s0T88ksYEC-VrcI3r8wCLcB/s0/full-label.png) no-repeat left top;
 	position:absolute;
     top:-12px;left:-7px;
 }
-.wap .header .rate p.t{
+.wap .header .rate p.t,.wab .rate p.t{
 	width: 15px;
     height: 15px;
     text-align: center;
@@ -319,7 +319,7 @@ background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(transparent), to
     right: -7px;
     line-height: 14px;
 }
-.wap .header .rate p.h{
+.wap .header .rate p.h,.wab .rate p.h{
 	width: 30px;
     height: 15px;
     text-align: center;
@@ -341,8 +341,7 @@ background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(transparent), to
 .wap .footer a.t:hover{color:#FF3DFF}.wap .footer a:hover{color:blue;}
 
 
-.wab{
-}
+
 .wab a{
 	width:100%;
 	padding:7px 0;
@@ -356,26 +355,50 @@ background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(transparent), to
 	color: #ff00ff;
 	text-shadow: -1px -1px 0 rgba(0,0,0,0.12);
 }
-
 .wab a.r{
 	color: #0000ee;
 	text-align:right;
 	text-shadow: 1px 1px 0 rgba(0,0,0,0.12);
 }
+.wab .rate,.wab img{width:100%;height:100%}
 
-.wab img{
+.wab div.rp{
 	width:calc(100%/2 - 1px);
-	display:block;
-	z-index:3;	
+	position:relative;
 }
-.wab img.r{
-	float: right;
-	box-shadow: 2px 3px 0 rgba(0,0,236,0.25);
-}
-.wab img.l{
+.wab div.l{
+	left:0;
 	float:left;
 	box-shadow: -2px -3px 0 rgba(255, 0, 255, 0.25);
 }
+
+.wab div.r{
+	right:0;
+	float: right;
+	box-shadow: 2px 3px 0 rgba(0,0,236,0.25);
+}
+
+.wab .rate{
+	font:10px/10px Tahoma;
+	position:absolute;
+}
+.wab .rate p.s{
+	width:26px;height:39px;
+	background-size:26px 39px;
+    top:-7px;left:-2px;
+}
+.wab .rate p.t{
+	top: 2px;
+    left: 2px
+}
+.wab .rate p.c{
+	padding: 0px 1px;
+}
+.wab .rate p.h{
+	bottom: 15px;
+    left: -7px;
+}
+
 
 
 
@@ -770,19 +793,19 @@ transform: translateY(-2px);
 }
 @media only screen and (max-width:499px){/*************************************************************************************/
 #show #conbar{margin:0}#show .showc{padding:7px 1px}
-.wap{max-width:100%}.wab img{height:299px}
+.wap{max-width:100%}.wab div.rp{height:299px}
 ul.ulbar,#sidebar,#adbar,#sea,#sky{display:none}
 .desktop{display:none}.mobile{display:block}
 #hibar #solo{width:79%}#search input{margin-left:-5px}
 #midbar ul#ulmen{position:relative;margin:0 auto;}
-#midbar ul#ulmen li{padding:0 9px}
+#midbar ul#ulmen li{padding:0 9px}#midbar ul#ulmen li ul li{padding:1px 2px}
 
 #mhom{top:0;left:0;width:100%;height:100%;position:fixed;overflow:hidden;overflow-y:scroll;background:#f2f2f2 url('https://2.bp.blogspot.com/-WqYActoMKBI/Vyq0Vw4AStI/AAAAAAAAJyw/3RJSWRZ5NyQwAqYFs2jfTjPVZqGXBMkLACLcB/s0/bg.gif') repeat center top fixed;z-index:7;}
 #mhom div.mhok{
 width: 100%;
 height: 39px;    
 position: relative;
-background-image:-webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(255, 7, 248, 0.52)), to(rgba(147, 1, 255, 0.27)));
+background-image:-webkit-gradient(linear, 0% 0%, 0% 100%, from(rgb(255, 7, 248)), to(rgba(147, 1, 255, 0.27)));
 }
 #mhom div.mhok .melu{margin:5px;width:30px;height:30px;background:url('https://2.bp.blogspot.com/-YDIDoSZ8Szo/V3Rjt5O0ANI/AAAAAAAAKew/6lYMryPy5eM3o_lcYraYlcG5APWRoLdJwCLcB/s0/menu.png') top left no-repeat}
 #mhom div.mhok input{top:5px;
@@ -855,16 +878,16 @@ font-size:16px;font-weight:bold;text-decoration:none;text-transform:capitalize;}
 #itail div.gose input{width:52px}
 }
 @media only screen and (max-width:415px){
-.wab img{height:267px}
+.wab div.rp{height:267px}
 }
 @media only screen and (max-width:375px){
-.wab img{height:247px}
+.wab div.rp{height:247px}
 }
 @media only screen and (max-width:360px){
-.wab img{height:239px}
+.wab div.rp{height:239px}
 }
 @media only screen and (max-width:320px){
-.wab img{height:217px}
+.wab div.rp{height:217px}
 }
 
 @media only screen and (min-width:500px){}
