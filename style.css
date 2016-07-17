@@ -781,8 +781,8 @@ ul.ulbar,#sidebar,#adbar,#sea,#sky{display:none}
 #mhom div.mhok{
 width: 100%;
 height: 39px;    
-position: relative;background: #0DAD0D;
-background: linear-gradient(to bottom, rgba(56, 208, 6, 0.62) 0px, rgb(0, 121, 0) 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+position: relative;
+background-image:-webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(255, 7, 248, 0.52)), to(rgba(147, 1, 255, 0.27)));
 }
 #mhom div.mhok .melu{margin:5px;width:30px;height:30px;background:url('https://2.bp.blogspot.com/-YDIDoSZ8Szo/V3Rjt5O0ANI/AAAAAAAAKew/6lYMryPy5eM3o_lcYraYlcG5APWRoLdJwCLcB/s0/menu.png') top left no-repeat}
 #mhom div.mhok input{top:5px;
