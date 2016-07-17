@@ -389,10 +389,11 @@ background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(transparent), to
 }
 .wab .rate p.t{
 	top: 2px;
-    left: 2px
+    left: 2px;
+    background-position: 1px top; 
 }
 .wab .rate p.c{
-	padding: 0px 1px;
+	padding: 0px 2px;
 }
 .wab .rate p.h{
 	bottom: 15px;
