@@ -289,7 +289,7 @@ background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(transparent), to
 }
 .wap .header:hover span{top:0px;opacity:1;visibility:visible}
 
-.wap .header .rate{width:calc(100% - 14px);height:calc(100% - 31px);position:absolute;font:11px/11px Tahoma;}
+.wap .header .rate{width:calc(100% - 14px);height:calc(100% - 31px);position:absolute;font:11px/11px Tahoma,Verdana,Segoe,sans-serif;}
 .wap .header .rate p.c,.wab .rate p.c{
 	background:rgba(255,255,255,0.77);
 	position:absolute;
@@ -379,7 +379,7 @@ background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(transparent), to
 }
 
 .wab .rate{
-	font:10px/10px Tahoma;
+	font:10px/10px Tahoma,Verdana,Segoe,sans-serif;
 	position:absolute;
 }
 .wab .rate p.s{
