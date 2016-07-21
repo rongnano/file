@@ -531,7 +531,9 @@ box-shadow: 3px 0px 15px rgba(0,0,0,0.27);
 
 #ipost div.text br{line-height:27px}
 
-#ipost #gtext{padding:2px 17px;font-size:20px;color:#000;letter-spacing:1.5px;word-spacing:0px;line-height:32px;text-align:justify;text-shadow:0 -1px #FFF;cursor:-webkit-grab;cursor:grab}
+#ipost #gtext{padding:2px 17px;font-size:20px;color:#000;letter-spacing:1.5px;word-spacing:0px;line-height:32px;text-align:justify;text-shadow:0 -1px #FFF;
+background:url(https://1.bp.blogspot.com/-AwhNhudDlik/VzSVHtiztGI/AAAAAAAAJ2w/X1kmui8-MRAK_vXd4J4K7rUDXjpKmMDHQCLcB/s0/footprint.png) no-repeat;
+cursor:-webkit-grab;cursor:grab}
 #ipost #gtext br{line-height:42px}
 
 img.loading{width:312px;height:450px !important;background:url(https://2.bp.blogspot.com/-w0xh4LU5T8Q/VzdZzXEiDDI/AAAAAAAAJ3A/6Jni6q2X7zgQEuzBGxrR0d2bCxWoTsH8wCLcB/s0/loading.gif) center 45% no-repeat;position:relative}
