@@ -278,7 +278,7 @@ box-shadow:0px 2px 5px rgba(77,77,77,0.39);position:relative;font-size:11px;colo
 .wap .header p{display:block}
 .wap .header img{width:100%;height:auto}
 .wap .header span{left:0;top:-99px;padding:9px 12px 3px 12px;height:auto;opacity:0;visibility:hidden;position:absolute;
-font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:15px;overflow:hidden;line-height:19px;
+font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:15px;overflow:hidden;line-height:21px;
 text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;color:#fff;
 transition:visibility 0s,opacity .1s ease-out,top .25s ease-out;text-align:justify;
 letter-spacing: 1px;
