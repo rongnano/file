@@ -277,15 +277,18 @@ box-shadow:0px 2px 5px rgba(77,77,77,0.39);position:relative;font-size:11px;colo
 .wap .header a:hover{color:#FF3DFF}/*FE0066*/
 .wap .header p{display:block}
 .wap .header img{width:100%;height:auto}
-.wap .header span{left:0;top:-99px;padding:9px 12px 3px 12px;height:auto;opacity:0;visibility:hidden;position:absolute;
+.wap .header span{left:0;top:0px;padding:9px 12px 3px 12px;height:auto;opacity:1;visibility:visible;position:absolute;
 font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:15px;overflow:hidden;line-height:19px;
-text-shadow: 2px 2px 5px rgba(0,0,0,0.57);color:#fff;
+text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;color:#fff;
 transition:visibility 0s,opacity .1s ease-out,top .25s ease-out;text-align:justify;
 letter-spacing: 1px;
 word-spacing: -2px;
-background-color: rgb(239,239,239);
 background-color: rgba(239, 239, 239, 0.27);
-background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(transparent), to(rgba(147, 1, 255, 0.27)));
+background-image: -webkit-linear-gradient(rgba(0, 8, 109, 0.69),rgba(147, 1, 255, 0.27));
+background-image: -o-linear-gradient(rgba(0, 8, 109, 0.69),rgba(147, 1, 255, 0.27));
+background-image: -moz-linear-gradient(rgba(0, 8, 109, 0.69),rgba(147, 1, 255, 0.27));
+background-image: linear-gradient(rgba(0, 8, 109, 0.69),rgba(147, 1, 255, 0.27));
+background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(0, 8, 109, 0.69)), to(rgba(147, 1, 255, 0.27)));
 }
 .wap .header:hover span{top:0px;opacity:1;visibility:visible}
 
