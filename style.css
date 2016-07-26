@@ -37,6 +37,36 @@ color:#ccc
 :-ms-input-placeholder {  
 color:#ccc 
 }
+#ping{
+	padding: 9px 12px;
+    position: fixed;
+    bottom: 12px;
+    right: 12px;
+    z-index: 99;
+    border: 1px solid rgba(219, 255, 0, 0.23);
+    border-radius: 3px;
+    box-shadow: inset -2px -2px 0 0 rgba(130, 130, 130, 0.19);
+    font: bold 15px/18px 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    color: rgb(9,145,9);
+    display: none;
+    background: rgb(253, 255, 235);
+}
+#ping a{
+	font-weight:normal;
+}
+#ping span{
+	font-weight:normal;
+	line-height:18px;
+	color:fuchsia;
+}
+#ping span.d{
+	color:gray;
+	text-decoration:line-through;
+}
+#ping br{
+	line-height:24px;
+}
+
 .loading{width:100%;height:100%;background:transparent url(https://2.bp.blogspot.com/-w0xh4LU5T8Q/VzdZzXEiDDI/AAAAAAAAJ3A/6Jni6q2X7zgQEuzBGxrR0d2bCxWoTsH8wCLcB/s0/loading.gif) center bottom no-repeat fixed;position:fixed;z-index:999}
 .bar{font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;font-size: 14px;line-height:20px;color: #333333;}
 .center{width:99%;margin:0 auto;padding:0;border:0;display:table;position:relative}
@@ -408,6 +438,77 @@ background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(0, 8, 109, 
 }
 
 
+/*######## SPELL CHECK ########*/
+#spell .wap{	
+	max-width:100%;
+	margin: 22px 0 62px 0;
+}
+
+#spell .wap p{
+	width:100%;	
+	padding: 7px 9px 4px 9px;
+    font: 17px/22px 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    color: rgb(9,145,9);
+    box-sizing: border-box;
+    background: rgba(218, 253, 214, 0.46);
+}
+#spell .wap p.o{
+	padding: 4px 9px 7px 9px;
+	color: rgb(202, 197, 20);
+	background: rgba(251, 224, 224, 0.64);
+	text-decoration:line-through;
+}
+
+#spell .wap a{
+	padding: 5px 9px;
+    position: absolute;
+    font:12px/12px Tahoma,Verdana,Segoe,sans-serif;
+    box-shadow:0px 2px 5px rgba(77,77,77,0.39);
+}
+#spell .wap a.s{
+	top: 0;
+    right: 0;
+    background: rgba(222, 187, 213, 0.2);
+    color: #ce00ff;
+    margin-top: -22px;
+    box-shadow: 0px -2px 5px rgba(77,77,77,0.39);
+    border-top-right-radius:4px;
+	border-top-left-radius:4px;
+}
+#spell .wap a.n{
+	bottom: 0;
+    left: 0;
+    color:blue;
+    background: #fff;
+    margin-bottom: -22px;
+    box-shadow:0px 2px 5px rgba(77,77,77,0.39);
+    text-decoration:none;
+    text-transform:capitalize;
+    border-bottom-right-radius:4px;
+	border-bottom-left-radius:4px;
+}
+#spell .wap a.u,#spell .wap a.r{
+	bottom: 0;
+    right: 0;
+    color: #fff;
+    font-weight:bold;
+    background: rgb(9,145,9);
+    margin-bottom: -22px;
+    box-shadow:0px 2px 5px rgba(77,77,77,0.39);
+    border-bottom-right-radius:4px;
+	border-bottom-left-radius:4px;
+}
+#spell .wap a.u:hover{
+	background:lime;
+}
+#spell .wap a.r{
+	background:gray;
+}
+#spell .wap br{
+	line-height:27px;
+}
+
+
 
 
 #ibars{
@@ -539,12 +640,13 @@ box-shadow: 3px 0px 15px rgba(0,0,0,0.27);
 #ipost div.text br{line-height:27px}
 
 #ipost #gtext{padding:2px 17px;font-size:20px;color:#000;letter-spacing:1.5px;word-spacing:0px;line-height:32px;text-align:justify;text-shadow:0 -1px #FFF;
-background:url(https://1.bp.blogspot.com/-AwhNhudDlik/VzSVHtiztGI/AAAAAAAAJ2w/X1kmui8-MRAK_vXd4J4K7rUDXjpKmMDHQCLcB/s0/footprint.png) no-repeat;
-cursor:-webkit-grab;cursor:grab}
+background:url(https://1.bp.blogspot.com/-AwhNhudDlik/VzSVHtiztGI/AAAAAAAAJ2w/X1kmui8-MRAK_vXd4J4K7rUDXjpKmMDHQCLcB/s0/footprint.png) no-repeat;cursor:-webkit-grab;cursor:grab}
 #ipost #gtext br{line-height:42px}
 
-img.loading{width:312px;height:450px !important;background:url(https://2.bp.blogspot.com/-w0xh4LU5T8Q/VzdZzXEiDDI/AAAAAAAAJ3A/6Jni6q2X7zgQEuzBGxrR0d2bCxWoTsH8wCLcB/s0/loading.gif) center 45% no-repeat;position:relative}
+#ipost #gtext font{line-height:32px}
+#ipost #gtext font.edit{cursor:text;width:100%}
 
+img.loading{width:312px;height:450px !important;background:url(https://2.bp.blogspot.com/-w0xh4LU5T8Q/VzdZzXEiDDI/AAAAAAAAJ3A/6Jni6q2X7zgQEuzBGxrR0d2bCxWoTsH8wCLcB/s0/loading.gif) center 45% no-repeat;position:relative}
 
 #tail{width:98%;margin:19px auto}#tail div.table{width:100%;background:rgba(52,255,5,0.1);}
 #tail div.table div.cell{width:49%;padding:9px 0 12px 0;vertical-align:bottom;
