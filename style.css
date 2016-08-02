@@ -1023,7 +1023,7 @@ ul#ulmen li {padding:0 12px}ul#ulmen.t li {padding:0 7px}
 
 /* Alibaba */
 #alibaba{width:100%;word-wrap:break-word;position:relative;}#alibaba div{width:100%;display:inline-block}
-#alibaba .about{padding:12px 0 3px 0;text-align:center;font-weight: bold;font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;font-size: 17px;line-height:22px;text-shadow: 0 2px 2px rgba(255,255,255,0.7);}
+#alibaba .about{padding:32px 0 3px 0;text-align:center;font-weight: bold;font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;font-size: 17px;line-height:22px;text-shadow: 0 2px 2px rgba(255,255,255,0.7);}
 #alibaba .about a{margin:0 9px;color:#000;text-decoration:none}#alibaba .about a:hover{color:#FF3DFF;text-decoration:underline}
 #alibaba .holy{width:100%;z-index:3}html:hover #alibaba .holy,body:hover #alibaba .holy{height:0px}#alibaba #share3-b,#alibaba #Label1{width:100%;}
 #alibaba .holy .ing{width:99%;margin:12px auto;padding:0;border-spacing:9px 2px;position:relative;display:table;text-shadow:0 -1px rgba(255,255,255,.9);}
