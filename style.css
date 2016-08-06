@@ -1,12 +1,4 @@
-@font-face {
-  font-family:'Tangerine';font-style:normal;font-weight:400;
-  src:local('Tangerine'),url(https://rongnano.github.io/file/stylesheets/f.woff) format('woff');
-  src:url('https://rongnano.github.io/file/stylesheets/f.eot');
-  src:url('https://rongnano.github.io/file/stylesheets/f.eot?#iefix') format('embedded-opentype'),
-  url('https://rongnano.github.io/file/stylesheets/f.woff2') format('woff2'),
-  url('https://rongnano.github.io/file/stylesheets/f.ttf') format('truetype'),
-  url('https://rongnano.github.io/file/stylesheets/f.svg#Tangerine') format('svg')
-}
+@import url(https://fonts.googleapis.com/css?family=Tangerine);
 html{margin:0;width:100%;height:100%;min-height:900px;overflow-x:hidden}
 body,form,input,table,tr,td,ul,ol,li,p,span,fieldset,legend,font{margin:0;padding:0;line-height:12px;text-decoration:none}
 body{top:0;left:0;width:100%;height:auto;position:absolute;overflow:hidden;border:0;background:#f2f2f2 url('https://2.bp.blogspot.com/-WqYActoMKBI/Vyq0Vw4AStI/AAAAAAAAJyw/3RJSWRZ5NyQwAqYFs2jfTjPVZqGXBMkLACLcB/s0/bg.gif') repeat left top fixed}
@@ -72,7 +64,7 @@ img.loading{width:312px;height:450px !important;background:url(https://2.bp.blog
 .bar{font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;font-size: 14px;line-height:20px;color: #333333;}
 .center{width:99%;margin:0 auto;padding:0;border:0;display:table;position:relative}
 .gaia{width:100% !important;background:rgba(255,255,255,0.18)}
-#abur{height:100%;background:rgba(255,255,255,0.69);z-index:0}
+#abur{height:100%;background:rgba(255,255,255,0.69);z-index:0}#obur{height:100%;background:rgba(255,255,255,0.79);z-index:0}
 #hibar #solo div{padding:0;position:absolute;left:0;right:0;margin-left:auto;margin-right:auto;}
 #hibar #solo{width:39%;height:45px;position:relative;margin:0 auto;display:table;text-align:center}
 #hibar #logo{top:0;transition:top 0.12s ease-out}#hibar:hover #logo{top:-57px}
