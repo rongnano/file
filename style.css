@@ -285,7 +285,7 @@ ul#ulmen li a.k{
 
 
 /*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
-#container{box-shadow: 0 -12px 32px -12px rgba(27,27,27,0.18);min-height:120px;}
+#container{box-shadow:0 -12px 32px -12px rgba(27,27,27,0.18);min-height:77px}
 #show{position:relative;}
 #show .showc{padding:11px 1px;height:0px;}
 .wap{margin:0 3px 12px 3px;max-width:299px;border:0;background:rgba(255,255,255,0.45);border-radius:1px;display: block;word-wrap:break-word;
