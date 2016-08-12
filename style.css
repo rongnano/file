@@ -985,10 +985,10 @@ ul#ulmen li{padding:0 9px}ul#ulmen li ul li{padding:1px 2px}
 #ipost div.text img,#ipost div.text img.yleft,#ipost div.text img.yright{margin:0;margin-bottom:5px;padding:0;width:100%;max-width:100%;height:auto;float:left;
 -webkit-box-shadow: none;-moz-box-shadow: none;box-shadow: none;}
 
-#tail ul.list li{padding:0 7px;}
-#tail #ileft{padding-left:5px;}#ileft label{margin-right:7px;}
+#tail ul.list li{padding:0 7px}
+#tail #ileft{padding-left:5px}#ileft label{margin-right:7px;}
 #tail #iright input{margin-left:9px;}#tail #iright{padding-right:3px;}
-#ipost #gtext{padding:2px 3px;}
+#ipost #gtext{padding:2px 5px}
 #itail {width:100%;}
 #itail a{padding:1px 7px;font-size:25px;line-height:25px;}
 #itail div.gose{margin:0 9px;}
